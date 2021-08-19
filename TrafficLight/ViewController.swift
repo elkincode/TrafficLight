@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenLightView: UIView!
     @IBOutlet weak var nextButton: UIButton!
     
-    var color: Int = 0
+    private var color: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
